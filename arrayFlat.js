@@ -19,3 +19,8 @@ const numbersThree = [
 ];
 const flatNumbersThree = numbersThree.flat(Infinity);
 console.log(flatNumbersThree);
+
+//if an array has empty vals
+const numbersFour = [1,2,,4,5,,8]
+const flatNumbersFour = numbersFour.flat()
+console.log(flatNumbersFour)
